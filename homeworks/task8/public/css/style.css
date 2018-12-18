@@ -1,0 +1,151 @@
+/*
+* @Author: Yuuoniy
+* @Date:   2017-11-27 23:38:03
+* @Last Modified by:   Yuuoniy
+* @Last Modified time: 2017-12-21 12:13:18
+*/
+
+body {
+  text-align: center;
+  font-family: century gothic;
+  letter-spacing: .1em;
+  font-size: 25px;
+  background: #9993C1;
+}
+
+#main {
+  width: 410px;
+  height: 370px;
+  margin: 200px auto 0 auto;
+  background: #C5C9E6;
+  box-shadow: 0px 3px 20px #555;
+}
+
+#main p {
+  padding-top: 28px;
+  font-size: 28px;
+}
+#signin{
+  width: 410px;
+  height: 250px;
+  margin: 200px auto 0 auto;
+  background: #C5C9E6;
+  box-shadow: 0px 3px 20px #555;
+}
+#signin p {
+  padding-top: 28px;
+  font-size: 28px;
+}
+input {
+  margin-left: 4%;
+  margin-right: 5%;
+  margin-bottom: 3px;
+  font-size: 16px;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  background: 0;
+  float: left;
+  letter-spacing: 0.1em;
+  font-family: century gothic;
+  display: inline-block;
+}
+
+input:focus {
+  border-bottom: 1px solid #9993c1;
+  transition: 0.5s;
+}
+input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0px 1000px #C5C9E6 inset !important;
+}
+
+
+/*input:-webkit-autofill {
+background:#C5C9E6 !important;
+/*background-image: none;
+color: #000;*/
+
+.icon {
+  width: 23px;
+  height: 23px;
+  float: left;
+  margin-left: 20px;
+}
+
+.wrongInput {
+  border-bottom: 1px solid red;
+}
+
+.error {
+  text-align: left;
+  margin-left: 15%;
+  height: 52px;
+  letter-spacing: 0.05em;
+  color: red;
+  font-size: 12px;
+  padding-bottom: 5px;
+  /*opacity: 0;*/
+  /*display: none;*/
+}
+
+
+button {
+  /*margin-top: 20px;*/
+  background-color: #bab4e4;
+  width: 146px;
+  height: 30px;
+  outline: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+  border-radius: 11px;
+  font-family: century gothic;
+  letter-spacing: .06em;
+  font-size: 18px;
+}
+
+button:hover {
+  border-color: #9f9abd;
+  text-decoration: none;
+}
+
+button:focus {
+  outline-offset: -2px;
+}
+
+button:active {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+
+
+
+/* details page*/
+
+.info {
+  margin-bottom: 20px;
+}
+
+
+#detail {
+  background: #C5C9E6;
+  width: 400px;
+  height: 300px;
+  margin: 200px auto 0 auto;
+  border: 1px solid grey;
+  /*padding: 10px;*/
+  /*border-radius: 10%;*/
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0px 3px 20px #555;
+}
+
+#detail p {
+  font-size: 28px;
+}
+
+.infoName {
+  font-weight: 600;
+}

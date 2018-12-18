@@ -1,0 +1,166 @@
+#at-plus-container {
+  margin: auto;
+  position: relative;
+  height: 800px;
+}
+
+#bottom-positioner {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+#button {
+  margin-top: 150px;
+  margin-left: 50px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.control-ring-container {
+  width: 100%;
+  text-align: center;
+}
+
+.apb {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: url(./images/atplus_white.png) no-repeat rgba(120, 130, 170, 1) center;
+  background-size: 90%;
+  transition: all .5s .1s;
+}
+
+#button:hover .apb {
+  background: url(./images/atplus_green.png) no-repeat rgba(48, 63, 159, 1) center;
+  background-size: 80%;
+  transform: scale(2, 2);
+  transform-origin: center;
+  transition: all 0.5s;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li img {
+  width: 28px;
+  height: 28px;
+}
+
+.result {
+  position: absolute;
+  top: 140px;
+  left: 70px;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  opacity: 0;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  font-weight: bold;
+  transition: all 0.6s;
+}
+
+
+
+#button:hover .result {
+  top: -40px;
+  left: -5px;
+  width: 150px;
+  height: 150px;
+  opacity: 1;
+  background-color: #8F8A8A;
+  transition: all 0.6s;
+}
+
+
+
+
+.unread{
+  position: absolute;
+  left: 28px;
+  top: -5px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  /*transition: all .3s;*/
+}
+
+#button:hover .unread {
+  background-color: red;
+  text-align: center;
+  font-size: 11pt;
+  font-weight: bold;
+  left: 28px;
+  top: -5px;
+  transition: all 0.3s;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: all .5s;
+  position: absolute;
+  top: 160px;
+  left: 60px;
+  text-align: center;
+  font-size: 25px;
+  color: #85da88;
+}
+
+
+
+#button:hover .button {
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+}
+
+#button:hover #E {
+  position: absolute;
+  top: 220px;
+  left: 80px;
+}
+
+#button:hover #D {
+  position: absolute;
+  top: 225px;
+  left: 25px;
+}
+
+#button:hover #C {
+  position: absolute;
+  top: 200px;
+  left: -25px;
+}
+
+#button:hover #B {
+  position: absolute;
+  top: 150px;
+  left: -40px;
+}
+
+#button:hover #A {
+  position: absolute;
+  top: 100px;
+  left: -25px;
+}
+
+
+
+.disable {
+  background-color: #8F8A8A !important;
+}
+
+.enable {
+  background-color: rgba(48, 63, 159, 1) !important;
+}

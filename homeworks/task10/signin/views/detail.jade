@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  if(error)
+    #accessError.flash-error You can only access your own data
+  else 
+    #accessError
+  #detail
+    p details
+    .info
+      span.infoName username: 
+      span#username #{user.username}
+    .info
+      span.infoName id: 
+      span#studentid #{user.id}
+    .info
+      span.infoName telephone: 
+      span#telephone #{user.telephone}
+    .info
+      span.infoName email: 
+      span#email #{user.email}
+    button#signout(type='button') sign out
+  script(type='text/javascript', src='./javascripts/detail.js')
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>sign up</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../public/images/icon/favicon.png">
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css">
+</head>
+
+<body>
+  <div id="main">
+    <p>sign up</p>
+    <form id='registerForm' action="http://127.0.0.1:8000/" method="post">
+      <img src="../public/images/icon/user.png" class="icon">
+      <input type="text" name="username" placeholder="username" value="">
+      <div class="error" id="error1"></div>
+      <img src="../public/images/icon/id.png" class="icon">
+      <input type="text" placeholder="student number" name="id" value="">
+      <div class="error" id="error2"></div>
+      <img src="../public/images/icon/telephone.png" class="icon">
+      <input type="text" placeholder="telephone" name="telephone" value="">
+      <div class="error" id="error3"></div>
+      <img src="../public/images/icon/email.png" class="icon">
+      <input type="text" placeholder="email" name="email" value="">
+      <div class="error" id="error4"></div>
+      <img src="../public/images/icon/pwd.png" class="icon">
+      <input type="password" placeholder="password" name="password" value="">
+      <!-- <div class="error" id="error5"></div> -->
+      <img src="../public/images/icon/pwd.png" class="icon">
+      <input type="password" placeholder="confirm password" name="password" value="">
+      <div class="error" id="error5"></div>
+      <div class="btn">
+        <button type="button" id="reset">reset</button>
+        <button type="submit" id="signup">sign up</button>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="../public/javascripts/jquery-3.2.1.min.js"></script>
+</body>
+
+</html>

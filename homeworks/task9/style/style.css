@@ -1,0 +1,193 @@
+/*大布局定位*/
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#at-plus-container {
+  position: relative;
+  width: 180px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bottom-positioner {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
+/*细节*/
+
+#info-bar {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  bottom: 97px;
+  left: 77px;
+  border-radius: 50%;
+  background-color: #7E7E7E;
+  transition: all 0.5s;
+  opacity: 0;
+
+  /*padding-top: 50px;*/
+}
+
+#button:hover #info-bar {
+  width: 130px;
+  height: 130px;
+  bottom: 150px;
+  left: 25px;
+  border-radius: 50%;
+  background-color: #7E7E7E;
+  opacity: 1;
+}
+
+.result {
+  margin-top: 45px;
+  /*width: 50px;*/
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #85da88;
+}
+
+#control-ring-container {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  bottom: 20px;
+  left: 0px;
+  border-radius: 50%;
+}
+
+#control-ring-container li {
+  list-style: none;
+  position: absolute;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #85da88;
+  width: 32px;
+  height: 32px;
+  margin-top: 60px;
+  margin-left: 35px;
+  border-radius: 50%;
+  background: #686868 center no-repeat;
+  background-size: 18px 18px;
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+#button:hover #control-ring li {
+  opacity: 1;
+}
+
+#button:hover #control-ring li:nth-child(1) {
+  margin-top: 20px;
+  margin-left: -30px;
+}
+
+#button:hover #control-ring li:nth-child(2) {
+  margin-top: 60px;
+  margin-left: -40px;
+}
+
+#button:hover #control-ring li:nth-child(3) {
+  margin-top: 102px;
+  margin-left: -26px;
+}
+
+#button:hover #control-ring li:nth-child(4) {
+  margin-top: 129px;
+  margin-left: 12px;
+}
+
+#button:hover #control-ring li:nth-child(5) {
+  margin-top: 128px;
+  margin-left: 60px;
+}
+
+#control-ring li span.unread {
+  position: absolute;
+  top: -2px;
+  right: -10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 11pt;
+  color: #E0D6DC;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+#button {
+  width: 70px;
+  height: 70px;
+  margin: 75px 55px;
+}
+
+#button .apb {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  bottom: 97px;
+  left: 77px;
+  border-radius: 50%;
+  background: url('./images/atplus_white.png') center no-repeat;
+  background-size: 20px 15px;
+  background-color: #989FCF;
+  transition: all 0.5s;
+}
+
+#button:hover .apb {
+  width: 50px;
+  height: 50px;
+  bottom: 85px;
+  left: 65px;
+  background: url('./images/atplus_green.png') center no-repeat;
+  background-size: 40px 30px;
+  background-color: #303F9F;
+}
+
+.disable {
+  background-color: #8F8A8A !important;
+}
+
+.enable {
+  background-color: rgba(48, 63, 159, 1) !important;
+}
+
+.seque {
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  top: -200px;
+  /*font-weight: bold;*/
+  /*color: #85da88;*/
+}
+
+
+#message{
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: -150px;
+  width: 300px;
+  left: -50px;
+  margin: 0 auto 0 auto;
+}

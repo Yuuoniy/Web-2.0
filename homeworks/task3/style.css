@@ -1,0 +1,244 @@
+#at-plus-container {
+  margin: auto;
+  position: relative;
+  height: 800px;
+}
+
+#bottom-positioner {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+#button {
+  margin-top: 267px;
+  margin-left: 50px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.control-ring-container {
+  width: 100%;
+  text-align: center;
+}
+
+.apb {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: url(assets/images/atplus_white.png) no-repeat rgba(120, 130, 170, 1) center;
+  background-size: 90%;
+  /*设置延迟*/
+  -webkit-transition: all .5s .1s;
+  -moz-transition: all .5s .1s;
+  transition: all .5s .1s;
+}
+
+#button:hover .apb {
+  background: url(assets/images/atplus_green.png) no-repeat rgba(48, 63, 159, 1) center;
+  background-size: 80%;
+  /* background-repet: no-repeat; */
+  -webkit-transform: scale(2, 2);
+  /* Safari and Chrome */
+  -moz-transform: scale(2, 2);
+  /* Firefox */
+  -ms-transform: scale(2, 2);
+  /* IE 9 */
+  -o-transform: scale(2, 2);
+  /* Opera */
+  transform: scale(2, 2);
+  transform-origin: center;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li img {
+  width: 28px;
+  height: 28px;
+}
+
+.info {
+  position: absolute;
+  top: 140px;
+  left: 70px;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  opacity: 0;
+  margin: auto;
+  overflow: hidden;
+  font-weight: bold;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.info span {
+  padding-left: 10px;
+}
+
+.page {
+  transition: all 0s;
+}
+
+.mine {
+  color: #079E6E;
+  transition: all 0s;
+}
+
+#button:hover .info {
+  top: -40px;
+  left: -5px;
+  width: 150px;
+  height: 150px;
+  opacity: 1;
+  background-color: #8F8A8A;
+  transition: all 0.6s;
+}
+
+.user {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  color: white;
+  font-size: 15pt;
+}
+
+.user span {
+  position: absolute;
+  top: -3px;
+}
+
+.comment {
+  position: absolute;
+  top: 45px;
+  left: 40px;
+  color: white;
+  font-size: 28pt;
+}
+
+.comment span {
+  position: absolute;
+  top: 0px;
+}
+
+.posted {
+  position: absolute;
+  left: 30px;
+  top: 100px;
+}
+
+.like {
+  position: absolute;
+  left: 85px;
+  top: 100px;
+}
+
+.mine span {
+  position: absolute;
+  top: 5px;
+  left: 25px;
+}
+
+.unread {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  transition: all .5s;
+}
+
+#button:hover .unread {
+  background-color: red;
+  text-align: center;
+  font-size: 11pt;
+  font-weight: bold;
+  left: 25px;
+  top: -5px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: all .5s;
+  position: absolute;
+  top: 160px;
+  left: 60px;
+}
+
+#button:hover .button {
+  width: 40px;
+  height: 40px;
+  -webkit-transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#button:hover .sign {
+  background: url(assets/images/signin.png) no-repeat #8F8A8A center;
+  position: absolute;
+  top: 220px;
+  left: 80px;
+}
+
+#button:hover .setting {
+  background: url(assets/images/setting.png) no-repeat #8F8A8A center;
+  position: absolute;
+  top: 225px;
+  left: 25px;
+}
+
+#button:hover .message {
+  background: url(assets/images/message.png) no-repeat #8F8A8A center;
+  position: absolute;
+  top: 200px;
+  left: -25px;
+}
+
+#button:hover .history {
+  background: url(assets/images/history.png) no-repeat #8F8A8A center;
+  position: absolute;
+  top: 150px;
+  left: -40px;
+}
+
+#button:hover .mask {
+  background: url(assets/images/nomask.png) no-repeat #8F8A8A center;
+  position: absolute;
+  top: 100px;
+  left: -25px;
+}
+
+.info ul {
+  position: absolute;
+  left: -40px;
+  top: 0px;
+  transition: all 0.5s;
+}
+
+#button:hover .info ul {
+  position: absolute;
+  left: 0px;
+  top: -20px;
+  transition: all 0.5s;
+}

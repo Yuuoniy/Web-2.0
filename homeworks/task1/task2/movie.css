@@ -1,0 +1,140 @@
+body {
+  background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000");
+  font-size: 8pt;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#banner {
+  height: 50px;
+  background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000");
+  background-repeat: repeat-x;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+#overall-content {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid gray;
+}
+
+.left-content {
+  width: 550px;
+  background-repeat: repeat-x;
+  overflow: hidden;
+}
+
+.rotten {
+  background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
+  background-repeat: repeat-x;
+  height: 83px;
+  width: 550px;
+}
+
+.rotten img {
+  height: 83px;
+  vertical-align: bottom;
+}
+
+.right-content {
+  float: right;
+  width: 250px;
+  background-color: #A2B964;
+  font-size: 8pt;
+  font-family: Arial, sans-serif
+}
+
+.right-content dl {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.right-conten dt {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+#rating {
+  font-size: 48pt;
+  color: red;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+#total {
+  position: relative;
+  font-size: 8pt;
+  color: white;
+  bottom: 12px;
+}
+
+.left-column {
+  width: 47%;
+  float: left;
+  margin-left: 2%;
+}
+
+.right-column {
+  width: 47%;
+  float: right;
+  margin-right: 2%;
+}
+
+.reviews {
+  font-size: 8pt;
+  font-weight: bold;
+  background-color: #E1D697;
+  border: 2px solid gray;
+  overflow: auto;
+  padding: 8px;
+}
+
+.reviews img {
+  float: left;
+  padding-right: 5px;
+}
+
+.reviewers {
+  height: 25.6px;
+  padding-bottom: 3em;
+  margin-bottom: 0;
+}
+
+.reviewers img {
+  float: left;
+  padding-right: 5px;
+}
+
+.publication {
+  font-style: italic;
+}
+
+dl dt {
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.bar {
+  text-align: center;
+  background-color: #A2B964;
+  padding: 5px;
+  clear: right;
+  margin: 0px;
+}
+
+.links {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>sign in</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../public/images/icon/favicon.png">
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css">
+</head>
+
+<body>
+  <div id="signin">
+    <p>sign in</p>
+    <form id='signinForm' action="http://127.0.0.1:8000/" method="post">
+      <img src="../public/images/icon/user.png" class="icon">
+      <input type="text" name="username" placeholder="username" value="">
+      <div class="error" id="error1"></div>
+      <img src="../public/images/icon/pwd.png" class="icon">
+      <input type="password" placeholder="password" name="id" value="">
+      <div class="error" id="error2"></div>
+      <div class="btn">
+        <button type="button" id="signup">sign up</button>
+        <button type="submit" id="signinbtn">sign in</button>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="../public/javascripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../public/javascripts/signin.js"></script>
+</body>
+
+</html>

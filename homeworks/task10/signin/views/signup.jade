@@ -1,0 +1,40 @@
+extends layout
+
+block content
+  #main
+    p sign up
+    form#registerForm(method='post')
+      img.icon(src='./images/icon/user.png')
+      input(type='text', name='username', placeholder='username', value=user.username)
+      if(error.username)
+        #error1.error #{error.username}
+      else
+        #error1.error
+      img.icon(src='./images/icon/id.png')
+      input(type='text', placeholder='student number', name='id', value=user.id)
+      if(error.id)
+        #error2.error  #{error.id}
+      else
+        #error1.error
+      img.icon(src='./images/icon/telephone.png')
+      input(type='text', placeholder='telephone', name='telephone', value=user.telephone)
+      if(error.telephone)
+        #error3.error #{error.telephone}
+      else
+        #error1.error
+      img.icon(src='./images/icon/email.png')
+      input(type='text', placeholder='email', name='email', value=user.email)
+      if(error.email)
+        #error4.error #{error.email}
+      else
+        #error1.error
+      img.icon(src='./images/icon/pwd.png')
+      input(type='password', placeholder='password', name='password', value=user.password)
+      #error5.error 
+      img.icon(src='./images/icon/pwd.png')
+      input(type='password', placeholder='confirm password', name='cpassword', value=user.cpassword)
+      #error6.error
+      .btn
+        button#reset(type='button') reset
+        button#signup(type='submit') sign up
+      script(type='text/javascript', src='./javascripts/signup.js')
